@@ -1,7 +1,9 @@
+import EventsCarousel from "../components/EventCarousel/EventsCarousel"
+
 function Events() {
     return (
         <div>
-            Events
+            <EventsCarousel />
         </div>
     )
 }
