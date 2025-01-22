@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Event 1",
+        "subtitle": "Subtitle event 1",
+        "description": "Description event 1",
+        "image": "src/assets/eventsCarousel/image1.png"
+    },
+    {
+        "title": "Event 2",
+        "subtitle": "Subtitle event 2",
+        "description": "Description event 2",
+        "image": "src/assets/eventsCarousel/image2.png"
+    },
+    {
+        "title": "Event 3",
+        "subtitle": "Subtitle event 3",
+        "description": "Description event 3",
+        "image": "src/assets/eventsCarousel/image3.png"
+    },
+    {
+        "title": "Event 4",
+        "subtitle": "Subtitle event 4",
+        "description": "Description event 4",
+        "image": "src/assets/eventsCarousel/image1.png"
+    },
+    {
+        "title": "Event 5",
+        "subtitle": "Subtitle event 5",
+        "description": "Description event 5",
+        "image": "src/assets/eventsCarousel/image2.png"
+    },
+    {
+        "title": "Event 6",
+        "subtitle": "Subtitle event 6",
+        "description": "Description event 6",
+        "image": "src/assets/eventsCarousel/image3.png"
+    },
+    {
+        "title": "Event 7",
+        "subtitle": "Subtitle event 7",
+        "description": "Description event 7",
+        "image": "src/assets/eventsCarousel/image1.png"
+    },
+    {
+        "title": "Event 8",
+        "subtitle": "Subtitle event 8",
+        "description": "Description event 8",
+        "image": "src/assets/eventsCarousel/image2.png"
+    },
+    {
+        "title": "Event 9",
+        "subtitle": "Subtitle event 9",
+        "description": "Description event 9",
+        "image": "src/assets/eventsCarousel/image3.png"
+    }
+]
