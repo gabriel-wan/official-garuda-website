@@ -23,10 +23,10 @@ export default function App() {
                 }}
                 pagination={true}
                 modules={[EffectCoverflow, Pagination]}
-                className="!p-12 ! !w-full"
+                className="!p-12 ! !w-full !h-full rounded-xl"
             >
                 {slides.map((slide, index) => (
-                    <SwiperSlide className="!bg-center !bg-cover !w-96 !h-[288px]">
+                    <SwiperSlide className="!bg-center !bg-cover !w-96 !h-[288px] rounded-xl">
                         <EventSlide
                             key={index}
                             slide={slide}
