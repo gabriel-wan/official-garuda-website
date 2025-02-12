@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Instagram",
+        "link": "https://www.instagram.com/bayofbanana/",
+        "image": "instagram.jpg"
+    },
+    {
+        "name": "Tiktok",
+        "link": "https://www.tiktok.com/@garuduck",
+        "image": "tiktok.jpg"
+    },
+    {
+        "name": "CAPT Website",
+        "link": "https://capt.nus.edu.sg/",
+        "image": "capt-website.jpg"
+    }
+]

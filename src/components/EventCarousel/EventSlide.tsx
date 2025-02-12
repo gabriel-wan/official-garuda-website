@@ -25,7 +25,7 @@ const EventSlide = ({
 
     const transform = useMotionTemplate`rotateX(${xSpring}deg) rotateY(${ySpring}deg)`;
 
-    const handleMouseMove = (e) => {
+    const handleMouseMove = (e: { clientX: number; clientY: number; }) => {
         if (!ref.current) return [0, 0];
 
         const rect = ref.current.getBoundingClientRect();
@@ -49,7 +49,7 @@ const EventSlide = ({
     };
 
     return (
-        <div className="grid w-full h-full place-content-center text-[#734A27]">
+        <div className="grid w-full h-full rounded-xl place-content-center text-[#734A27]">
             <motion.div
                 ref={ref}
                 onMouseMove={handleMouseMove}
@@ -58,7 +58,7 @@ const EventSlide = ({
                     transformStyle: "preserve-3d",
                     transform,
                 }}
-                className="relative w-96 h-[288px] rounded-xl bg-gradient-to-br from-[#734A27] to-[#D0A51D]"
+                className="relative w-96 h-[288px] rounded-xl bg-gradient-to-br from-[#222529] to-[#734A27]"
             >
                 <img
                     src={slide.image}
