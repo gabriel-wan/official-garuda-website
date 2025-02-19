@@ -1,19 +1,17 @@
 import { useMotionValue, useSpring, useMotionTemplate, motion } from "motion/react";
 import { useRef } from "react";
+import { useNavigate } from "react-router-dom";
+import { Slide } from "../../types/global";
 
 const ROTATION_RANGE = 32.5;
 const HALF_ROTATION_RANGE = 32.5 / 2;
-type Slide = {
-    title: string;
-    subtitle: string;
-    description: string;
-    image: string;
-}
 
 const EventSlide = ({
-    slide
+    slide,
+    slideIndex
 }: {
     slide: Slide;
+    slideIndex: number;
 }) => {
     const ref = useRef(null);
 
@@ -24,6 +22,9 @@ const EventSlide = ({
     const ySpring = useSpring(y);
 
     const transform = useMotionTemplate`rotateX(${xSpring}deg) rotateY(${ySpring}deg)`;
+
+    // For navigating to each event
+    const navigate = useNavigate();
 
     const handleMouseMove = (e: { clientX: number; clientY: number; }) => {
         if (!ref.current) return [0, 0];
@@ -48,8 +49,15 @@ const EventSlide = ({
         y.set(0);
     };
 
+    const handleClick = () => {
+        console.log(slideIndex);
+        navigate(`/events/${slideIndex}`);
+    };
+
     return (
-        <div className="grid w-full h-full rounded-xl place-content-center text-[#734A27]">
+        <div
+            onClick={handleClick} 
+            className="grid w-full h-full rounded-xl place-content-center text-[#734A27]">
             <motion.div
                 ref={ref}
                 onMouseMove={handleMouseMove}
@@ -61,7 +69,7 @@ const EventSlide = ({
                 className="relative w-96 h-[288px] rounded-xl bg-gradient-to-br from-[#222529] to-[#734A27]"
             >
                 <img
-                    src={slide.image}
+                    src={slide.displayImage}
                     style={{
                         transform: "translateZ(75px)",
                         transformStyle: "preserve-3d",
