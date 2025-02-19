@@ -46,7 +46,7 @@ const EventsBanner = () => {
             rel="noreferrer noopener"
             target="_blank"
         >
-            <div className="relative overflow-hidden group hover:opacity-90">
+            <div className="relative overflow-hidden group hover:opacity-90 mb-8 md:mb-12">
                 <motion.div
                     drag="x"
                     dragConstraints={{
