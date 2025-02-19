@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar"
 import People from "./pages/People"
 import Events from "./pages/Events"
 import Footer from "./components/Footer"
+import EventObject from "./pages/EventObject"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/people" element={<People />} />
           <Route path="/events" element={<Events />} />
+          <Route path="/events/:eventId" element={<EventObject />} />
         </Routes>
         <Footer />
       </BrowserRouter>
