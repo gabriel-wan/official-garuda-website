@@ -1,4 +1,4 @@
-import {people} from '../public/index';
+import {people} from '../data/index';
 import PeopleCard from "../components/PeopleCard";
 
 

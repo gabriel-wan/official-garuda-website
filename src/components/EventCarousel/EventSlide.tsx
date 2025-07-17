@@ -54,6 +54,9 @@ const EventSlide = ({
         navigate(`/events/${slideIndex}`);
     };
 
+    const imgUrl = `/assets/eventsCarousel/${slide.displayImage}`;
+
+    
     return (
         <div
             onClick={handleClick} 
@@ -69,7 +72,7 @@ const EventSlide = ({
                 className="relative w-96 h-[288px] rounded-xl bg-gradient-to-br from-[#222529] to-[#734A27]"
             >
                 <img
-                    src={slide.displayImage}
+                    src={imgUrl}
                     style={{
                         transform: "translateZ(75px)",
                         transformStyle: "preserve-3d",
