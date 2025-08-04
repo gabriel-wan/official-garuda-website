@@ -5,7 +5,7 @@ function SocialCard({ name, link, image }: SocialCardProps) {
     <a href={link} rel="noreferrer noopener" target="_blank">
       <div className="relative group w-[12.5rem] sm:w-[15.625rem] md:w-[18.75rem] lg:w-[21.875rem] aspect-[9/16] shadow-lg hover:opacity-90 mb-8">
         <img
-          src={`/src/assets/home/socialBar/${image}`}
+          src={image}
           alt={name}
           className="object-cover w-full h-full drop-shadow-lg hover:drop-shadow-none"
         />
