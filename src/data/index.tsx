@@ -1,6 +1,6 @@
 import ritvik from '../assets/people/ritvik.jpeg'
-import shashank from '../assets/people/Shashank.jpeg'
-import marcella from '../assets/people/Marcella.jpeg'
+import shashank from '../assets/people/shashank.jpeg'
+import marcella from '../assets/people/marcella.jpeg'
 import misty from '../assets/people/misty.jpeg'
 
 export const navLinks = [
