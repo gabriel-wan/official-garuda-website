@@ -4,8 +4,8 @@ function PeopleBanner() {
     return (
         <a
             href="/people"
-            rel="noreferrer noopener"
-            target="_blank"
+            //rel="noreferrer noopener"
+            //target="_blank"
         >
             <div className="relative group hover:opacity-90 mb-8">
                 <img
