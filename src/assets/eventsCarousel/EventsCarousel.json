@@ -2,147 +2,298 @@
     {
         "title": "Garu ING",
         "subtitle": "Subtitle event 1",
-        "description": "Been itching to show off your football skills that are Bluelock worthy? Or maybe you just got that deadly backhand in badminton? Together with your fellow Garurudians, take on the other houses in a wide variety of sports and create sick highlights that are sure to boost your reputation.",
         "displayImage": "ing2.jpg",
-        "images": [
-            "ing2.jpg",
-            "ing1.jpg",
-            "ing3.jpg",
-            "ing4.jpg"
-        ],
-        "highlights": [
-            {
-                "image": "aura1.jpg",
-                "title": "Tchoukball",
-                "description": "Garuda Tchoukball Aura farmer Ray Sen poses for the camera."
+        "years": {
+            "2025": {
+                "description": "Been itching to show off your football skills that are Bluelock worthy? Or maybe you just got that deadly backhand in badminton? Together with your fellow Garurudians, take on the other houses in a wide variety of sports and create sick highlights that are sure to boost your reputation.",
+                "images": [
+                    "ing2.jpg",
+                    "ing1.jpg",
+                    "ing3.jpg",
+                    "ing4.jpg"
+                ],
+                "highlights": [
+                    {
+                        "image": "aura1.jpg",
+                        "title": "Tchoukball",
+                        "description": "Garuda Tchoukball Aura farmer Ray Sen poses for the camera."
+                    },
+                    {
+                        "image": "aura2.jpg",
+                        "title": "Badminton",
+                        "description": "Aura farmer Martin puts up a strong performance."
+                    },
+                    {
+                        "image": "aura3.jpg",
+                        "title": "Post-ING",
+                        "description": "Happy Garudians celebrating a hard day's of work."
+                    }
+                ]
             },
-            {
-                "image": "aura2.jpg",
-                "title": "Badminton",
-                "description": "Aura farmer Martin puts up a strong performance."
-            },
-            {
-                "image": "aura3.jpg",
-                "title": "Post-ING",
-                "description": "Happy Garudians celebrating a hard day's of work."
+            "2024": {
+                "description": "other",
+                "images": [
+                    "ing2.jpg",
+                    "ing1.jpg",
+                    "ing3.jpg",
+                    "ing4.jpg"
+                ],
+                "highlights": [
+                    {
+                        "image": "aura1.jpg",
+                        "title": "Tchoukball",
+                        "description": "Garuda Tchoukball Aura farmer Ray Sen poses for the camera."
+                    },
+                    {
+                        "image": "aura2.jpg",
+                        "title": "Badminton",
+                        "description": "Aura farmer Martin puts up a strong performance."
+                    },
+                    {
+                        "image": "aura3.jpg",
+                        "title": "Post-ING",
+                        "description": "Happy Garudians celebrating a hard day's of work."
+                    }
+                ]
             }
-        ]
+        }
     },
     {
         "title": "Garuween",
         "subtitle": "Subtitle event 2",
-        "description": "Garuda x Halloween! Get ready for a spooky night full of suspense, surprises and segues into food and music and well!",
         "displayImage": "image2.png",
-        "images": [
-            "garuween1.jpg",
-            "garuween2.jpg",
-            "garuween3.jpg",
-            "garuween4.jpg"
-        ],
-        "highlights": [
-            {
-                "image": "highlight1.jpg",
-                "title": "Face Painting",
-                "description": "Watch your friends do stuff to their face ."
-            },
-            {
-                "image": "highlight2.jpg",
-                "title": "Pizza Party",
-                "description": "We do love some good pizza in here."
-            },
-            {
-                "image": "highlight3.jpg",
-                "title": "Fright Night",
-                "description": "A wild Kurt Tay terrorises the Garudians."
-            }
-        ]
+        "years": {
+            "2025": {
+            "description": "Garuda x Halloween! Get ready for a spooky night full of suspense, surprises and segues into food and music and well!",
+            "images": [
+                "garuween1.jpg",
+                "garuween2.jpg",
+                "garuween3.jpg",
+                "garuween4.jpg"
+            ],
+            "highlights": [
+                {
+                    "image": "highlight1.jpg",
+                    "title": "Face Painting",
+                    "description": "Watch your friends do stuff to their face ."
+                },
+                {
+                    "image": "highlight2.jpg",
+                    "title": "Pizza Party",
+                    "description": "We do love some good pizza in here."
+                },
+                {
+                    "image": "highlight3.jpg",
+                    "title": "Fright Night",
+                    "description": "A wild Kurt Tay terrorises the Garudians."
+                }
+            ]
+        },
+        "2024": {
+            "description": "",
+            "images": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "highlights": [
+                {
+                    "image": "",
+                    "title": "",
+                    "description": ""
+                },
+                {
+                    "image": "",
+                    "title": "",
+                    "description": ""
+                },
+                {
+                    "image": "",
+                    "title": "",
+                    "description": ""
+                }
+            ]
+        }
+
+    }
     },
     {
         "title": "Garumas",
         "subtitle": "Subtitle event 3",
-        "description": "Its that time of the year for all things red, Mariah Carey and gift-giving! Perfect opportunity to ask your friends for what you want, not what you need :) ",
         "displayImage": "image3.png",
-        "images": [
-            "gmas1.jpg",
-            "gmas2.jpg",
-            "gmas3.jpg",
-            "gmas4.jpg"
-        ],
-        "highlights": [
-            {
-                "image": "gmas1.jpg",
-                "title": "Performance",
-                "description": "Isaac showcases his sick singing talent."
+        "years": {
+            "2025": {
+                "description": "Its that time of the year for all things red, Mariah Carey and gift-giving! Perfect opportunity to ask your friends for what you want, not what you need :) ",
+                "images": [
+                    "gmas1.jpg",
+                    "gmas2.jpg",
+                    "gmas3.jpg",
+                    "gmas4.jpg"
+                ],
+                "highlights": [
+                    {
+                        "image": "gmas1.jpg",
+                        "title": "Performance",
+                        "description": "Isaac showcases his sick singing talent."
+                    },
+                    {
+                        "image": "gmas2.jpg",
+                        "title": "Picture Perfect",
+                        "description": "Our Garuda girlies enjoying the christmas party."
+                    },
+                    {
+                        "image": "gmas3.jpg",
+                        "title": "Gift Exchange",
+                        "description": "3SG Ming Rong receives his gift from 2LT Marcus."
+                    }
+                ]
             },
-            {
-                "image": "gmas2.jpg",
-                "title": "Picture Perfect",
-                "description": "Our Garuda girlies enjoying the christmas party."
-            },
-            {
-                "image": "gmas3.jpg",
-                "title": "Gift Exchange",
-                "description": "3SG Ming Rong receives his gift from 2LT Marcus."
+            "2024": {
+                "description": "",
+                "images": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "highlights": [
+                    {
+                        "image": "",
+                        "title": "",
+                        "description": ""
+                    },
+                    {
+                        "image": "",
+                        "title": "",
+                        "description": ""
+                    },
+                    {
+                        "image": "",
+                        "title": "",
+                        "description": ""
+                    }
+                ]
             }
-        ]
+        }
     },
     {
         "title": "Welcome Back Dinner",
         "subtitle": "Subtitle event 4",
-        "description": "Get ready to kickstart the new semester with good food, exquitsite performance and dress up as your favourite character with your friends!",
         "displayImage": "image4.png",
-        "images": [
-            "wbd1.jpg",
-            "wbd2.jpg",
-            "wbd3.jpg",
-            "wbd4.jpg"
-        ],
-        "highlights": [
-            {
-                "image": "wbd.jpg",
-                "title": "Spooderman",
-                "description": "With great power comes great responsibility. And a lot of copycats."
+        "years": {
+            "2025": {
+                "description": "Get ready to kickstart the new semester with good food, exquitsite performance and dress up as your favourite character with your friends!",
+                "images": [
+                    "wbd1.jpg",
+                    "wbd2.jpg",
+                    "wbd3.jpg",
+                    "wbd4.jpg"
+                ],
+                "highlights": [
+                    {
+                        "image": "wbd.jpg",
+                        "title": "Spooderman",
+                        "description": "With great power comes great responsibility. And a lot of copycats."
+                    },
+                    {
+                        "image": "wbd2.jpg",
+                        "title": "Minions",
+                        "description": "Fun fact: Did you know that minions and Garudians are the same species? THEY ARE BOTH YELLOW THATS CRAZY!"
+                    },
+                    {
+                        "image": "wbd3.jpg",
+                        "title": "Swag",
+                        "description": " Fellow Garudian Ming Rong loves showing off his cool spiderman costume! Yippee~"
+                    }
+                ]
             },
-            {
-                "image": "wbd2.jpg",
-                "title": "Minions",
-                "description": "Fun fact: Did you know that minions and Garudians are the same species? THEY ARE BOTH YELLOW THATS CRAZY!"
-            },
-            {
-                "image": "wbd3.jpg",
-                "title": "Swag",
-                "description": " Fellow Garudian Ming Rong loves showing off his cool spiderman costume! Yippee~"
+            "2024": {
+                "description": "",
+                "images": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "highlights": [
+                    {
+                        "image": "",
+                        "title": "",
+                        "description": ""
+                    },
+                    {
+                        "image": "",
+                        "title": "",
+                        "description": ""
+                    },
+                    {
+                        "image": "",
+                        "title": "",
+                        "description": ""
+                    }
+                ]
             }
-        ]
+        }
     },
     {
         "title": "Garu Got Groove",
         "subtitle": "Subtitle event 5",
-        "description": "Garuda's very own talent show! Show off your singing, dancing, acting or even your ASMR eating skills in this star-studded event ! The vibes are truly immaculate tonight as everyone comes together to put up a solid and memorable performance.",
         "displayImage": "ggg2.jpg",
-        "images": [
-            "ggg2.jpg",
-            "ggg1.jpg",
-            "ggg3.jpg",
-            "ggg4.jpg"
-        ],
-        "highlights": [
-            {
-                "image": "ggg1.jpg",
-                "title": "Duet",
-                "description": "Fellow Garudians putting up a lovely duet performance."
+        "years": {
+            "2025": {
+                "description": "Garuda's very own talent show! Show off your singing, dancing, acting or even your ASMR eating skills in this star-studded event ! The vibes are truly immaculate tonight as everyone comes together to put up a solid and memorable performance.",
+                "images": [
+                    "ggg2.jpg",
+                    "ggg1.jpg",
+                    "ggg3.jpg",
+                    "ggg4.jpg"
+                ],
+                "highlights": [
+                    {
+                        "image": "ggg1.jpg",
+                        "title": "Duet",
+                        "description": "Fellow Garudians putting up a lovely duet performance."
+                    },
+                    {
+                        "image": "ggg6.jpg",
+                        "title": "Audience",
+                        "description": "The ever-supportive Garudian audience cheering on their friends."
+                    },
+                    {
+                        "image": "ggg5.jpg",
+                        "title": "Ctrl C Ctrl V",
+                        "description": "Sick guitar performance by the doppelganger trio of Garuda."
+                    }
+                ]
             },
-            {
-                "image": "ggg6.jpg",
-                "title": "Audience",
-                "description": "The ever-supportive Garudian audience cheering on their friends."
-            },
-            {
-                "image": "ggg5.jpg",
-                "title": "Ctrl C Ctrl V",
-                "description": "Sick guitar performance by the doppelganger trio of Garuda."
+            "2024": {
+                "description": "",
+                "images": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "highlights": [
+                    {
+                        "image": "",
+                        "title": "",
+                        "description": ""
+                    },
+                    {
+                        "image": "",
+                        "title": "",
+                        "description": ""
+                    },
+                    {
+                        "image": "",
+                        "title": "",
+                        "description": ""
+                    }
+                ]
             }
-        ]
+        }
     }
     
     

@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 
-interface EventData {
+interface YearEventData {
   title: string;
   subtitle: string;
   description: string;
@@ -9,7 +9,7 @@ interface EventData {
   images: string[];
 }
 
-export default function EventImageScroll({ eventData }: {eventData: EventData}) {
+export default function EventImageScroll({ eventData }: { eventData: YearEventData }) {
   // Ref to track scrolling within this container.
   const containerRef = useRef<HTMLDivElement | null>(null);
 
@@ -25,7 +25,7 @@ export default function EventImageScroll({ eventData }: {eventData: EventData}) 
   const x = useTransform(scrollYProgress, [0, 1], ["0%", `${totalTranslation}vw`]);
 
   // Base path for the images.
-  const basePath = "src/assets/eventsCarousel/";
+  const basePath = "/assets/eventsCarousel/";
 
   return (
     // A tall container so we have room to scroll.

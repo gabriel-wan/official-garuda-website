@@ -1,14 +1,23 @@
 import { useParams } from "react-router-dom"
+import { useState } from "react"
 import slides from "../assets/eventsCarousel/EventsCarousel.json"
 
 function EventObject() {
     const { eventId } = useParams()
-    const eventData = slides[Number(eventId)];
+    const id = Number(eventId);
 
     // Error handling
-    if (!eventData) {
-        return <div>Event not found</div>;
-    }
+    const baseEvent = slides[id];
+    if (!baseEvent || !baseEvent.years) return <div>Event not found</div>;
+
+    //get the available years
+    const availableYears = Object.keys(baseEvent.years).sort((a, b) => b.localeCompare(a));
+    const [selectedYear, setSelectedYear] = useState(availableYears[0]);
+
+    const eventData = baseEvent.years[selectedYear];
+
+    //error handling
+    if (!eventData) return <div>No data for year {selectedYear}</div>;
     
     const heroUrl = `/assets/eventsCarousel/${eventData.displayImage}`;
 
@@ -25,6 +34,32 @@ function EventObject() {
     return (
     <div className="min-h-screen bg-yellow-100 py-12 px-6 lg:px-12">
       <div className="max-w-6xl mx-auto space-y-8">
+
+        {/* --- Header + Year Dropdown */}
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
+          <h1 className="text-4xl font-bold text-gray-800 mb-4 md:mb-0">
+            {eventData.title}
+          </h1>
+
+          {/* Dropdown */}
+          <div>
+            <label htmlFor="year-select" className="mr-2 text-gray-700 font-medium">
+              Select Year:
+            </label>
+            <select
+              id="year-select"
+              value={selectedYear}
+              onChange={(e) => setSelectedYear(e.target.value)}
+              className="px-4 py-2 rounded border border-gray-300 bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-yellow-400"
+            >
+              {availableYears.map((year) => (
+                <option key={year} value={year}>
+                  {year}
+                </option>
+              ))}
+            </select>
+          </div>
+        </div>
 
         {/* --- 1) Header text */}
         <h1 className="text-4xl font-bold text-gray-800">
