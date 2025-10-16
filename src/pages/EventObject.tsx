@@ -19,7 +19,7 @@ function EventObject() {
     //error handling
     if (!eventData) return <div>No data for year {selectedYear}</div>;
     
-    const heroUrl = `/assets/eventsCarousel/${eventData.displayImage}`;
+    const heroUrl = `/assets/eventsCarousel/${eventData.hero}`;
 
     const gallery = eventData.images.map(
         (fn) => `/assets/eventsCarousel/${fn}`
